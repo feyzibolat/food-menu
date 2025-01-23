@@ -28,7 +28,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
       </body>
+      
+      <script src="https://unpkg.com/@ungap/global-this@0.4.4/min.js" noModule async></script>
     </html>
   );
 }
